@@ -1,0 +1,34 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.palette {
+  width: 250px;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.canvas {
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.settings {
+  width: 300px;
+  border-left: 1px solid #ccc;
+  padding: 10px;
+}
